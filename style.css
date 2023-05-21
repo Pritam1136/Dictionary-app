@@ -1,0 +1,35 @@
+.container {
+  height: 350px;
+  width: 600px;
+  background-color: rgb(245, 227, 196);
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.button {
+  margin: 15px;
+  padding: 6px;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.button:hover {
+  background-color: rgb(11, 11, 11);
+  color: white;
+}
+
+.input {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 20px;
+  width: 300px;
+}
